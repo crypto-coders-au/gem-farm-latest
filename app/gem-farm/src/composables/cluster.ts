@@ -10,8 +10,7 @@ export enum Cluster {
 }
 
 const clusterURLMapping = {
-  mainnet:
-    process.env.VUE_APP_MAINNET_URL || 'https://api.mainnet-beta.solana.com',
+  mainnet: 'https://dawn-old-putty.solana-mainnet.quiknode.pro/cd52da6de38edb7fd1c02eed6401e3717f9533cf/',
   devnet: process.env.VUE_APP_DEVNET_URL || 'https://api.devnet.solana.com',
   testnet: process.env.VUE_APP_TESTNET_URL || 'https://api.testnet.solana.com',
   localnet: process.env.VUE_APP_LOCALNET_URL || 'http://localhost:8899',
